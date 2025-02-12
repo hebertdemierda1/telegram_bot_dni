@@ -11,3 +11,20 @@ selenium = "^4.0"  # La versión más reciente de selenium (asegúrate de que se
 beautifulsoup4 = "^4.11.1"  # Versión de BeautifulSoup
 
 # Si usas alguna otra biblioteca, añádela aquí
+[tool.poetry]
+name = "mi-bot"
+version = "0.1.0"
+description = ""
+authors = ["Tu Nombre <tuemail@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+telebot = "^0.0.1"
+selenium = "^4.1.0"
+beautifulsoup4 = "^4.10.0"
+# Añadir más dependencias según sea necesario
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+# Otras dependencias de desarrollo si las tienes
+
