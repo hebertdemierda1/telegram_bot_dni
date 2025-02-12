@@ -14,7 +14,7 @@ RUN pip install poetry
 RUN poetry config virtualenvs.create false
 
 # Instalar las dependencias (sin dependencias de desarrollo)
-RUN poetry install --no-dev
+RUN poetry install --without dev
 
 # Comando para ejecutar el bot al iniciar el contenedor
 CMD ["poetry", "run", "python", "bot_telegram_dni.py"]
