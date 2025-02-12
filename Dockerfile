@@ -7,6 +7,9 @@ WORKDIR /app
 # Copiar todo el contenido del proyecto al contenedor
 COPY . .
 
+# Limpiar posibles problemas con archivos de bloqueo o caché
+RUN rm -rf poetry.lock __pycache__
+
 # Instalar Poetry
 RUN pip install poetry
 
