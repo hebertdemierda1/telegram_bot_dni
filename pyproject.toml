@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "bot_telegram"
+version = "0.1.0"
+description = "Un bot de Telegram que interactúa con Selenium"
+authors = ["Tu Nombre <tu-email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+telebot = "^0.0.1"  # Aquí se agrega la versión de telebot que usas
+selenium = "^4.0"  # La versión más reciente de selenium (asegúrate de que sea compatible)
+beautifulsoup4 = "^4.11.1"  # Versión de BeautifulSoup
+
+# Si usas alguna otra biblioteca, añádela aquí
